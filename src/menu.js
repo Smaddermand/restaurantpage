@@ -1,17 +1,17 @@
+// src/menu.js
 
-
-function createMenuPage(){
+function createMenuPage() {
     const content = document.getElementById('content');
 
-    const h1 = document.createElement("h1");
-    h1.textContent = "Menu";
+    // Example - You can change as per your content
+    const h1 = document.createElement('h1');
+    h1.textContent = 'Our Menu';
 
-    const p = document.createElement("p");
-    p.textContent = "Here is our menu!";
+    const p = document.createElement('p');
+    p.textContent = 'Explore our wide range of delicious dishes.';
 
     content.appendChild(h1);
     content.appendChild(p);
-
 }
 
 export default createMenuPage;

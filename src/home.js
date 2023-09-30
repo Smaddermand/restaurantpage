@@ -1,14 +1,19 @@
 // src/home.js
 
+import './style.css';
+import Eggrestaurant from './img/Eggrestaurant.jpeg';
+
+
 function createHomePage() {
     const content = document.getElementById('content');
 
     const img = document.createElement('img');
-    img.src = 'dist/img/82db1add944baebf83cbf669266ec707.jpeg'; // replace with the actual URL/path of your image
+    img.src = Eggrestaurant;
     img.alt = 'Restaurant Image';
 
     const h1 = document.createElement('h1');
     h1.textContent = 'Welcome to My Restaurant!';
+    h1.classList.add('hello');
 
     const p = document.createElement('p');
     p.textContent = 'My Restaurant is a wonderful place that offers delicious food and comfortable ambiance.';
